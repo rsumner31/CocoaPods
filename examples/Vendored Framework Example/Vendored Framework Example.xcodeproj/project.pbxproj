@@ -101,7 +101,6 @@
 				5CAF4FE61CC1125900B44520 /* Resources */,
 				4697BF2DD055B93C3DE0E375 /* [CP] Embed Pods Frameworks */,
 				9C2933733E94154FB1F30218 /* [CP] Copy Pods Resources */,
-			);
 			buildRules = (
 			);
 			dependencies = (
@@ -118,8 +117,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = CocoaPods;
+<<<<<<				LastUpgradeCheck = 0920;
+>>>>>>>+HEAD
+=
+				La				LastUpgradeCheck = 0730;
+>>>>>>>-0c61c9d
+GANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					5CAF4FE71CC1125900B44520 = {
 						CreatedOnToolsVersion = 7.3;
@@ -158,13 +161,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		25E42247833F1966ABF463BE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
+<<<<<<		25E42247833F1966ABF463BE /* [CP] Check Pods Manifest.lock */ = {
+>>>>>>>+HEAD
+=
+		25E4		25E42247833F1966ABF463BE /* 📦 Check Pods Manifest.lock */ = {
+>>>>>>>-0c61c9d
+ PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
@@ -177,11 +183,25 @@
 			showEnvVarsInLog = 0;
 		};
 		4697BF2DD055B93C3DE0E375 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
+>>>>>>>+HEAD
+			);
+					);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4697BF2DD055B93C3DE0E375 /* 📦 Embed Pods Frameworks */ = {
+>>>>>>>-0c61c9d
+ShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+<<<<<<< HEAD
 				"${SRCROOT}/Pods/Target Support Files/Pods-Vendored Framework Example/Pods-Vendored Framework Example-frameworks.sh",
 				"${PODS_ROOT}/VendoredFrameworkExample/Carthage/Build/iOS/AFNetworking.framework",
 				"${PODS_ROOT}/VendoredFrameworkExample/Carthage/Build/iOS/AFNetworking.framework.dSYM",
