@@ -19,6 +19,12 @@ Please run `[sudo] gem uninstall nanaimo` and remove all but the latest version.
 Issues with `pod search`? Try deleting your cache `rm -rf ~/Library/Caches/CocoaPods`first.
 -->
 
+> Before you start, are you using the CocoaPods beta release?
+> a lot has changed with Xcode 8 that is not backwards compatible.
+>
+> Xcode 8 Status: Only works with CocoaPods 1.1.0
+> Swift 3: You need to add a `swift_version` file, see the CHANGELOG
+
 * [ ] I've read and understood the [*CONTRIBUTING guidelines and have done my best effort to follow](https://github.com/CocoaPods/CocoaPods/blob/master/CONTRIBUTING.md).
 
 # Report
